@@ -24,7 +24,9 @@
 	
 	// Abfrage für einzelnen Post
 	$query = "SELECT * FROM posts WHERE id = $id";
-	
+    
+    //test
+
 	// Ergebnis abrufen
 	$ergebnis = mysqli_query($conn,$query);
 	
